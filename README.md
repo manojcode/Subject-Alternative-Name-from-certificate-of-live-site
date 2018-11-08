@@ -2,6 +2,9 @@
 
 Script extracts SAN from certificate of live site
 
+
+## Needs to be run from linux with openssl installed
+
 Example uses:
 
 ## python san-ssl.py -h
