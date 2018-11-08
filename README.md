@@ -4,7 +4,7 @@ Script extracts SAN from certificate of live site
 
 Example uses:
 
-# python san-ssl.py -h
+## python san-ssl.py -h
 usage: san-ssl.py [-h] -d DOMAIN
 
 Subject Alternative name from SSL certificate of Live site
@@ -14,8 +14,7 @@ optional arguments:
   -d DOMAIN, --domain DOMAIN
                         domain format - google.com
 
---------------------------------
-# python san-ssl.py -d google.com
+## python san-ssl.py -d google.com
 --------------------------------------------------
 > google.com
 *.google.com
